@@ -1,10 +1,16 @@
-
+import styled from "styled-components";
+import Asosiy from "./components/Asosiy";
+import Kurslar from "./components/Kurslar";
 function App() {
   return (
-    <div className="App">
-     <h1>hi</h1>
-    </div>
+    <AppContainer>
+      <Asosiy />
+      <Kurslar/>
+    </AppContainer>
   );
 }
 
 export default App;
+const AppContainer = styled.div`
+
+`
